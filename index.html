@@ -6,7 +6,7 @@
 
   <meta
     name="description"
-    content="Fernando Hocevar's technical portfolio - Principal Software Engineer, Tech Lead and Full Stack Engineer. Projects with Python, FastAPI, .NET, Java, Node.js, AI, RAG, PostgreSQL, PostGIS, DevOps and Cloud."
+    content="Fernando Hocevar's technical portfolio - Principal Software Engineer, Tech Lead and Full Stack Engineer. Projects with Python, FastAPI, Java, Spring Boot, React, .NET, AI, RAG, Data Engineering, PostgreSQL, PostGIS, DevOps and Cloud."
   />
 
   <title>Fernando Hocevar | Principal Software Engineer & Tech Lead</title>
@@ -92,8 +92,8 @@
       <p>
         This portfolio showcases practical projects focused on real-world engineering challenges,
         including AI-powered prescriptive maintenance, geospatial data processing,
-        financial systems, enterprise e-commerce, capacity management, SAP integration,
-        pipeline orchestration and observability.
+        financial systems, enterprise e-commerce, epidemiological intelligence, capacity management,
+        SAP integration, pipeline orchestration and observability.
       </p>
     </section>
 
@@ -374,6 +374,53 @@
               rel="noopener noreferrer"
             >
               Frontend Repository
+            </a>
+          </div>
+        </article>
+
+        <!-- ================================================== -->
+        <!-- EPIDEMIOLOGICAL INTELLIGENCE API -->
+        <!-- ================================================== -->
+
+        <article class="project-card">
+          <img
+            src="images/alertas.jpg"
+            alt="Epidemiological Intelligence API - Dengue Alert Endpoint"
+            class="project-image"
+          />
+
+          <div class="project-content">
+            <p class="project-tag">
+              Python / FastAPI / Data Engineering / Public Health
+            </p>
+
+            <h3>Epidemiological Intelligence &amp; Alerting API</h3>
+
+            <p>
+              Epidemiological data aggregation and alerting platform designed to
+              ingest, normalize and analyze public health data, providing structured
+              indicators, epidemiological bulletins and automated disease alerts.
+            </p>
+
+            <ul>
+              <li>Python and asynchronous FastAPI architecture</li>
+              <li>PostgreSQL with SQLAlchemy and Alembic migrations</li>
+              <li>WHO epidemiological bulletin integration</li>
+              <li>Dengue data ingestion and normalization pipeline</li>
+              <li>Processing of more than 73,000 dengue records in a single ingestion</li>
+              <li>Duplicate detection during data ingestion</li>
+              <li>Epidemiological indicators by disease and geographic region</li>
+              <li>Automated alert generation with severity classification</li>
+              <li>Scheduled ingestion and asynchronous processing</li>
+              <li>Docker-based environment and automated testing</li>
+            </ul>
+
+            <a
+              href="https://github.com/fhocevar/epi-aggregator-api"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Repository
             </a>
           </div>
         </article>
