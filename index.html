@@ -92,7 +92,7 @@
       <p>
         This portfolio showcases practical projects focused on real-world engineering challenges,
         including AI-powered prescriptive maintenance, geospatial data processing,
-        financial systems, capacity management, SAP integration,
+        financial systems, enterprise e-commerce, capacity management, SAP integration,
         pipeline orchestration and observability.
       </p>
     </section>
@@ -111,7 +111,11 @@
         <span>Java / Spring Boot</span>
         <span>Node.js / Prisma</span>
         <span>TypeScript / JavaScript</span>
-        <span>React</span>
+        <span>React / TypeScript</span>
+        <span>DDD / Clean Architecture</span>
+        <span>PostgreSQL / Redis</span>
+        <span>RabbitMQ / Messaging</span>
+        <span>Transactional Outbox</span>
         <span>REST APIs / Microservices</span>
         <span>JWT / OAuth</span>
         <span>PostgreSQL / pgvector</span>
@@ -265,6 +269,53 @@
 
             <a
               href="https://github.com/fhocevar/FinancialAccountabilityMVP"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View Repository
+            </a>
+          </div>
+        </article>
+
+        <!-- ================================================== -->
+        <!-- ENTERPRISE E-COMMERCE - JAVA / REACT -->
+        <!-- ================================================== -->
+
+        <article class="project-card">
+          <img
+            src="images/ecommercefrontproduct.jpg"
+            alt="Enterprise E-commerce Platform built with Java and React"
+            class="project-image"
+          />
+
+          <div class="project-content">
+            <p class="project-tag">
+              Java / React / Distributed Systems / Full Stack
+            </p>
+
+            <h3>Enterprise E-commerce Platform</h3>
+
+            <p>
+              Full Stack e-commerce platform built with a Java backend and React
+              frontend, designed around enterprise architecture patterns,
+              transactional consistency and reliable asynchronous processing.
+            </p>
+
+            <ul>
+              <li>Java and Spring Boot with DDD, Clean Architecture and SOLID</li>
+              <li>React frontend with product catalog, cart and checkout flows</li>
+              <li>PostgreSQL persistence with Flyway migrations</li>
+              <li>Redis-backed shopping cart</li>
+              <li>RabbitMQ for asynchronous messaging</li>
+              <li>Transactional Outbox Pattern for reliable event publishing</li>
+              <li>Idempotency-Key support for checkout operations</li>
+              <li>Pessimistic locking for inventory consistency</li>
+              <li>JWT authentication and authorization</li>
+              <li>Actuator, Prometheus, automated tests and GitHub Actions</li>
+            </ul>
+
+            <a
+              href="https://github.com/fhocevar/ecommerce"
               target="_blank"
               rel="noopener noreferrer"
             >
